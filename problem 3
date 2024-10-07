@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+ int c,d;
+ scanf("%d%d",&c,&d);
+ if(c==d)
+ {
+ printf("Equal");
+ }
+ else
+ {
+ printf("Unequal");
+ }
+ return 0;
+ }
