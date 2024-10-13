@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int X, totalMatchsticks = 0;
+
+    // Input number of floors
+    printf("Enter the number of floors (X): ");
+    scanf("%d", &X);
+        if(X==0)
+        {
+        printf("invalid");}
+        else
+        {
+           for (int i = 1; i <= X; i++) {
+        totalMatchsticks += 3*i;
+    }
+    
+
+    printf("Total number of matchsticks required for a pyramid of %d floors: %d\n", X, totalMatchsticks);
+}
+    return 0;
+}
