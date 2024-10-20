@@ -3,7 +3,7 @@
 int main() {
     int X, totalMatchsticks = 0;
 
-    // Input number of floors
+    
     printf("Enter the number of floors (X): ");
     scanf("%d", &X);
         if(X==0)
