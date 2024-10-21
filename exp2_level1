@@ -1,0 +1,44 @@
+include<stdio.h>
+int main()
+{
+    char m,g;
+    int a;
+    scanf("%c",&m);
+    scanf("\n%c",&g);
+    scanf("\n%d",&a);
+    printf("enter marital status(M/U):%c",m);
+    printf("\nenter gender(m/f):%c",g);
+    printf("\nenter age:%d",a);
+    
+    if(m=='M')
+    {
+        printf("\ndriver is insured");
+    }
+    else 
+    {
+        if(g=='M')
+        {
+            if(a>30)
+            {
+             printf("\ndriver is insured");
+            }
+            else
+            {
+                printf("\nnot insured");
+            }
+        }
+    
+        else
+        {
+           if(a>25) 
+           {
+               printf("\ndriver is insured");
+            }
+            else
+            {
+                printf("\nnot insured");
+            }
+        }
+    }    
+    return 0;
+}
